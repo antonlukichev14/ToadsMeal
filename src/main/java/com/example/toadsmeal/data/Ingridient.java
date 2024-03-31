@@ -2,7 +2,6 @@ package com.example.toadsmeal.data;
 
 public class Ingridient
 {
-    public int ggg;
     private String name;
     private int grams;
     private Nutrients nutrients;

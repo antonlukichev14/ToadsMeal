@@ -9,6 +9,7 @@ public class Recipe {
     private int difficulty;
     private int grams;
     private Nutrients nutrients;
+    private int cookingTimeMinutes;
     public final List<Ingridient> ingredients = new ArrayList<Ingridient>();
     public final List<Step> steps = new ArrayList<>();
 
@@ -42,6 +43,14 @@ public class Recipe {
 
     public void setGrams(int grams) {
         this.grams = grams;
+    }
+
+    public int getCookingTimeMinutes() {
+        return cookingTimeMinutes;
+    }
+
+    public void setCookingTimeMinutes(int cookingTimeMinutes){
+        this.cookingTimeMinutes = cookingTimeMinutes;
     }
 
     public Nutrients getNutrients() {

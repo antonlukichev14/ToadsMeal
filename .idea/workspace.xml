@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b197674-2e20-4413-bee2-b6aa62f6d258" name="Changes" comment="Добавил ORMLite&#10;&#10;Это было очень сложно. Мама будет мной гордиться">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/toadsmeal/data/Ingridient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/toadsmeal/data/Nutrients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/toadsmeal/data/Recipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/toadsmeal/data/Step.java" afterDir="false" />
+    <list default="true" id="9b197674-2e20-4413-bee2-b6aa62f6d258" name="Changes" comment="Добавил классы, хранящие данные">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/toadsmeal/data/Ingridient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/toadsmeal/data/Ingridient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/toadsmeal/data/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/toadsmeal/data/Recipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710865370484</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавил классы, хранящие данные">
+      <option name="closed" value="true" />
+      <created>1711327515458</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711327515458</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +95,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавил ORMLite&#10;&#10;Это было очень сложно. Мама будет мной гордиться" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил ORMLite&#10;&#10;Это было очень сложно. Мама будет мной гордиться" />
+    <MESSAGE value="Добавил классы, хранящие данные" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил классы, хранящие данные" />
   </component>
 </project>
