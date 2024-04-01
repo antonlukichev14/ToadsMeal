@@ -5,33 +5,9 @@ public class Nutrients {
     private static final int FAT_CALORIES_PER_GRAM = 9;
     private static final int CARB_CALORIES_PER_GRAM = 4;
 
-    private int proteinGrams;
-    private int fatGrams;
-    private int carbGrams;
-
-    public int getProteinGrams() {
-        return proteinGrams;
-    }
-
-    public void setProteinGrams(int proteinGrams) {
-        this.proteinGrams = proteinGrams;
-    }
-
-    public int getFatGrams() {
-        return fatGrams;
-    }
-
-    public void setFatGrams(int fatGrams) {
-        this.fatGrams = fatGrams;
-    }
-
-    public int getCarbGrams() {
-        return carbGrams;
-    }
-
-    public void setCarbGrams(int carbGrams) {
-        this.carbGrams = carbGrams;
-    }
+    public int proteinGrams;
+    public int fatGrams;
+    public int carbGrams;
 
     public int calories()
     {
