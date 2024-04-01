@@ -5,7 +5,8 @@ import java.util.List;
 import javafx.scene.image.Image;
 
 public class Recipe {
-    public String name; //Название рецепта
+    public String name; //Название блюда
+    public  String description; //Описание блюда
     public int categoryID; //Категория
     public Image image; //Изображение блюда
     private int difficulty; //Сложность
