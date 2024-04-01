@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b197674-2e20-4413-bee2-b6aa62f6d258" name="Changes" comment="Создал класс DatabaseSetup, создающий соотвественно саму Базу Данных рецептов">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/toadsmeal/dao/DatabaseSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9b197674-2e20-4413-bee2-b6aa62f6d258" name="Changes" comment="Добавил новый класс Product">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +26,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2dube956hpgYD6Qvx4n1642RdIE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,6 +51,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.archetype.catalogs&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Parser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.toadsmeal.Parser" />
+      <module name="ToadsMeal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.toadsmeal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Parser" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,6 +80,55 @@
       <option name="presentableId" value="Default" />
       <updated>1710861005677</updated>
     </task>
+    <task id="LOCAL-00001" summary="Добавил ORMLite&#10;&#10;Это было очень сложно. Мама будет мной гордиться">
+      <option name="closed" value="true" />
+      <created>1710865370484</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710865370484</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Добавил классы, хранящие данные">
+      <option name="closed" value="true" />
+      <created>1711327515458</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711327515458</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Чёто поменял">
+      <option name="closed" value="true" />
+      <created>1711863387810</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711863387810</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Парсер 0.1: Начало">
+      <option name="closed" value="true" />
+      <created>1711873928592</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711873928592</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Изменения в классах данных">
+      <option name="closed" value="true" />
+      <created>1711945943129</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711945943129</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Добавил новый класс Product">
+      <option name="closed" value="true" />
+      <created>1711947227226</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711947227226</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,5 +141,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавил ORMLite&#10;&#10;Это было очень сложно. Мама будет мной гордиться" />
+    <MESSAGE value="Добавил классы, хранящие данные" />
+    <MESSAGE value="Чёто поменял" />
+    <MESSAGE value="Парсер 0.1: Начало" />
+    <MESSAGE value="Изменения в классах данных" />
+    <MESSAGE value="Добавил новый класс Product" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил новый класс Product" />
   </component>
 </project>
